@@ -1,0 +1,3 @@
+[submodule "casper-two"]
+	path = casper-two
+	url = ./themes/casper-two

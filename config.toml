@@ -1,0 +1,61 @@
+baseurl         = "/"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Storj Blog"
+  subtitle    = "Decentralized Cloud Storage"
+
+  cover       = "bg.jpg"
+  description = "Welcome to the Storj blog."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "storjproject"
+  fbName = "storjproject"
+  githubName = "Storj"
+
+  logo = ""
+  orgName = "EM"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "Jodi Smith"
+  authorAvatar = "jodi.jpg"
+  authorLocation = "Atlanta, GA"
+  authorWebsite = "https://storj.io"
+  authorDescription = "Director of Content"
+
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Ask Storj"
+  url = "/tags/ask-storj/"
+  weight = 100
+
+[[menu.main]]
+  name = "Renting my drive"
+  url = "/categories/share/"
+  weight = 99
+
+[[menu.main]]
+  name = "Building my app"
+  url = "/categories/development/"
+  weight = 95
