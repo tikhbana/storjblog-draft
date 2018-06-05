@@ -22,7 +22,7 @@ paginate        = 6
 
   logo = ""
   orgName = "EM"
-  orgWebsite = "https://www.telematika.org"
+  orgWebsite = "https://www.storj.io"
   orgDescription = "Here is a description placeholder for your org"
 
   author = "Jodi Smith"
@@ -35,7 +35,7 @@ paginate        = 6
   pageNotFoundTitle = "404 - Page not found"
 
   #casper or caspertwo
-  singleViewStyle = "casper"
+  singleViewStyle = "caspertwo"
 
 [permalinks]
   post = "/:slug/"
